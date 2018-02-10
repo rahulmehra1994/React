@@ -2,7 +2,7 @@
 # React Image Upload Component
 This repo contains the image upload component in react for selecting one or more image from the computer and displaying the selected ones on the screen in real time and you can cancel them too. Use them Enjoy.
 
-## Screenhots
+## Screenshots
 ![1](https://user-images.githubusercontent.com/20178869/36057992-f975d19e-0e3c-11e8-9d7b-9dc691f9e30a.PNG)
 - The component will look like Profile pic above on include.
 
