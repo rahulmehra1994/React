@@ -14,7 +14,7 @@ This repo contains the image upload component in react for selecting one or more
 
 - clone or download the imgUploadComp repo. 
 - Paste it in your src directory.  
-- Include the file  like: ```import ImgUploadComp from './directory_where_file_is_saved/imgUploadComp';```
+- Include the file  like: ```import ImgUploadComp from './directory_where_file_is_saved/imgUploadComp.js';```
 - Import the css file for default styling: ```import './directory_where_file_is_saved/index.css';```
 - Place it in your code like :
 ```<ImgUploadComp multiple={false} value={ (data, imgName) => {this.setState({base64Array: data, imgNameArray: imgName})} }/>```
