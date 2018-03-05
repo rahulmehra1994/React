@@ -15,6 +15,7 @@ This repo contains the image upload component in react for selecting one or more
 - Just download the imgUploadComp.js  
 - Paste it in your src directory  
 - Include the file  like: ```import ImgUploadComp from './your-directory/imgUploadComp';```
+- Import the css file for default view: ```import './your-directory/index.css';```
 - Place it in your code like :
 ```<ImgUploadComp multiple={false} value={ (data, imgName) => {this.setState({base64Array: data, imgNameArray: imgName})} }/>```
 - The image/images converted into base 64 code along with image name will be available as array in the value function like following:
